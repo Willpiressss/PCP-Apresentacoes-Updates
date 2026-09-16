@@ -1,8 +1,11 @@
 {
   "schema": 1,
   "product": "pcp-apresentacoes",
-  "version": "1.16.0",
+  "version": "1.16.1",
   "required": false,
-  "published_at": "2026-09-16T18:00:00Z",
-  "notes": "Canal oficial de atualizações do PC&P Apresentações configurado no GitHub."
+  "published_at": "2026-09-16T18:51:20Z",
+  "setup_url": "https://github.com/Willpiressss/PCP-Apresentacoes-Updates/releases/download/v1.16.1/PCP_Apresentacoes_Setup_1.16.1.exe",
+  "sha256": "8c1cf3962e35b6a6e035cd83e0f90f700a08195b76ec59c48d454f9eb637849f",
+  "size_bytes": 26698315,
+  "notes": "V1.16.1 — Teste do atualizador automático via GitHub\n\n• Versão de validação do fluxo de atualização automática.\n• Mantém todos os recursos e dados da V1.16.0.\n• Confirma a detecção de nova versão, download do Setup, validação SHA-256, instalação silenciosa e reabertura automática.\n• O número da versão no dashboard passa para v1.16.1 após a atualização.\n\nEsta versão foi preparada especificamente para o primeiro teste real V1.16.0 → V1.16.1 antes da distribuição ao escritório."
 }
