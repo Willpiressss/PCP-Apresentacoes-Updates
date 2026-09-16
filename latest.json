@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "product": "pcp-apresentacoes",
-  "version": "1.16.1",
+  "version": "1.16.2",
   "required": false,
-  "published_at": "2026-09-16T18:51:20Z",
-  "setup_url": "https://github.com/Willpiressss/PCP-Apresentacoes-Updates/releases/download/v1.16.1/PCP_Apresentacoes_Setup_1.16.1.exe",
-  "sha256": "8c1cf3962e35b6a6e035cd83e0f90f700a08195b76ec59c48d454f9eb637849f",
-  "size_bytes": 26698315,
-  "notes": "V1.16.1 — Teste do atualizador automático via GitHub\n\n• Versão de validação do fluxo de atualização automática.\n• Mantém todos os recursos e dados da V1.16.0.\n• Confirma a detecção de nova versão, download do Setup, validação SHA-256, instalação silenciosa e reabertura automática.\n• O número da versão no dashboard passa para v1.16.1 após a atualização.\n\nEsta versão foi preparada especificamente para o primeiro teste real V1.16.0 → V1.16.1 antes da distribuição ao escritório."
+  "published_at": "2026-09-16T19:30:03Z",
+  "setup_url": "https://github.com/Willpiressss/PCP-Apresentacoes-Updates/releases/download/v1.16.2/PCP_Apresentacoes_Setup_1.16.2.exe",
+  "sha256": "6760275fafe5176f9e1059eba58b2d2c92b60493b8bef66b97d000a57d814a25",
+  "size_bytes": 26695712,
+  "notes": "V1.16.2 — Correção de cache e atualização automática\n\n• Corrige o cache dos arquivos da interface (CSS e JavaScript) entre versões.\n• app.css e app.js passam a carregar com o número da versão na URL, evitando a necessidade de Ctrl + F5 após futuras atualizações.\n• Mantém o atualizador automático via GitHub, validação SHA-256 e instalação silenciosa.\n• Mantém todos os recursos, apresentações e dados locais da V1.16.1.\n\nEsta versão consolida o fluxo de atualização automática para distribuição ao escritório."
 }
