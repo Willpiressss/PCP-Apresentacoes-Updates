@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "product": "pcp-apresentacoes",
-  "version": "1.16.2",
+  "version": "1.17.0",
   "required": false,
-  "published_at": "2026-09-16T19:30:03Z",
-  "setup_url": "https://github.com/Willpiressss/PCP-Apresentacoes-Updates/releases/download/v1.16.2/PCP_Apresentacoes_Setup_1.16.2.exe",
-  "sha256": "6760275fafe5176f9e1059eba58b2d2c92b60493b8bef66b97d000a57d814a25",
-  "size_bytes": 26695712,
-  "notes": "V1.16.2 — Correção de cache e atualização automática\n\n• Corrige o cache dos arquivos da interface (CSS e JavaScript) entre versões.\n• app.css e app.js passam a carregar com o número da versão na URL, evitando a necessidade de Ctrl + F5 após futuras atualizações.\n• Mantém o atualizador automático via GitHub, validação SHA-256 e instalação silenciosa.\n• Mantém todos os recursos, apresentações e dados locais da V1.16.1.\n\nEsta versão consolida o fluxo de atualização automática para distribuição ao escritório."
+  "published_at": "2026-09-22T11:18:32Z",
+  "setup_url": "https://github.com/Willpiressss/PCP-Apresentacoes-Updates/releases/download/v1.17.0/PCP_Apresentacoes_Setup_1.17.0.exe",
+  "sha256": "1de0cd7dc0c94056b35a89c1f5d49f9578d11ff89679836de583b3bc1ce8b27b",
+  "size_bytes": 26701437,
+  "notes": "V1.17.0 — Importação ampliada de layouts do Domínio\n\n• Adiciona reconhecimento automático da família “Análise Vertical do D.R.E.” exportada pelo Domínio.\n• Aceita as variações físicas observadas nos arquivos reais, inclusive relatórios com 27 ou 30 colunas e SALDO deslocado por mesclas.\n• Ignora completamente as colunas de percentual (%): elas não participam da detecção, dos cálculos nem da apresentação.\n• Normaliza espaços e quebras de linha sem exigir edição manual do Excel.\n• Reconhece CNPJ no cabeçalho quando disponível.\n• Adiciona detector de layout com pontuação de confiança e exibe o layout identificado na tela de validação.\n• Trata a variante com receitas abertas em seções antes do subtotal RECEITA BRUTA (ex.: associações) sem perder as contas analíticas.\n• Amplia o reconhecimento de subtotais financeiros, tributários e de resultado usados nas exportações reais do Domínio.\n• Ignora blocos de assinatura/rodapé após a DRE.\n• Mantém compatibilidade com DRE tradicional, DRE gerencial estruturada e modelo manual.\n• Mantém todas as regras de PDF, DRE expandida e atualização automática da V1.16.2.\n\nValidação desta evolução:\n• 19/19 testes automatizados.\n• 13/13 arquivos reais de Análise Vertical fornecidos para desenvolvimento importados sem erros.\n• Em todos os 13 arquivos, a soma das competências reconciliou com SALDO.\n• As apresentações HTML foram geradas com sucesso para os 13 arquivos.\n\nOs arquivos reais usados na validação não são incluídos no pacote nem no repositório de atualizações."
 }
